@@ -50,27 +50,22 @@
             <li>Перфораторы</li>
         </ul>
     </nav>
-    <section class="filter-options">
-        <h2 class="filter visually-hidden">Фильтр</h2>
-        <section class="manufacturers">
-            <h3>Производители:</h3>
-            <ul class="manufacturers-list">
-                <li><input type="checkbox" class="checkbox-square">Bosch</li>
-                <li><input type="checkbox" class="checkbox-square">Интерскол</li>
-                <li><input type="checkbox" class="checkbox-square">Makita</li>
-                <li><input type="checkbox" class="checkbox-square">Dewalt</li>
-                <li><input type="checkbox" class="checkbox-square">Hitachi</li>
-            </ul>
-        </section>
-        <section class="power-type">
-            <h3>Питание:</h3>
-            <ul class="power-type-list">
-                <li><input type="checkbox" class="checkbox-round">Аккумуляторные</li>
-                <li><input type="checkbox" class="checkbox-round">Сетевые</li>
-            </ul>
-        </section>
-        <button class="show-products">Показать</button>
-    </section>
+    <form action="catalog.html" method="get">
+        <fieldset>
+            <legend>Производители</legend>
+            <label><input type="checkbox" name="Bosch" class="checkbox-square manufacturers">Bosch</label>
+            <label><input type="checkbox" name="Интерскол" class="checkbox-square manufacturers">Интерскол</label>
+            <label><input type="checkbox" name="Makita" class="checkbox-square manufacturers">Makita</label>
+            <label><input type="checkbox" name="Dewalt" class="checkbox-square manufacturers">Dewalt</label>
+            <label><input type="checkbox" name="Hitachi" class="checkbox-square manufacturers">Hitachi</label>
+        </fieldset>
+        <fieldset>
+            <legend>Питание:</legend>
+            <label><input type="checkbox" name="battery" class="checkbox-round">Аккумуляторные</label>
+            <label><input type="checkbox" name="wired" class="checkbox-round">Сетевые</label>
+        </fieldset>
+        <button class="show-products" type="submit">Показать</button>
+    </form>
     <section class="products">
         <h2 class="hidden">Товары</h2>
         <ul class="products">
