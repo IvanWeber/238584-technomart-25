@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-.visuallyhidden {
+.visually-hidden {
     position: absolute;
 
     width: 1px;
