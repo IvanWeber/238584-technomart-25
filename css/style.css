@@ -11,6 +11,7 @@ body {
     background-color: #ffffff;
 }
 
+/*Оформление текста*/
 a {
     text-decoration: none;
 }
@@ -170,3 +171,88 @@ header {
     text-align: center;
     color: #ffffff;
 }
+
+.popular-products h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+.popular-products > a {
+    font-family: Cuprum;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ee3643;
+    text-transform: uppercase;
+}
+
+.products .card h3, .popular-products .card h3 {
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.products .card p, .popular-products .card p {
+    font-family: PTSans;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.products .card .price, .popular-products .card .price {
+    background-color: #ee3643;
+}
+
+.products .card .old-price, .popular-products .card .old-price {
+    text-decoration: line-through;
+    color: #a9a9a9;
+}
+
+.products .card .add-to-cart, .popular-products .card .add-to-cart {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #63a63e;
+}
+
+.products .card .add-to-favorites, .popular-products .card .add-to-favorites {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
