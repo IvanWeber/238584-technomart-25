@@ -338,3 +338,88 @@ header {
     text-align: left;
     color: #32425c;
 }
+
+.about-company h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.about-company p {
+    font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.about-company li{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.about-company > a {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.contacts p {
+    font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.contacts a {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+}
