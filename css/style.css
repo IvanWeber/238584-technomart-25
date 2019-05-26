@@ -423,3 +423,59 @@ header {
     text-transform: uppercase;
     background-color: #ee3643;
 }
+
+.top-footer {
+    background-color: #32425c;
+}
+
+.bottom-footer {
+    background-color: #293449;
+}
+
+.category-menu a {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffd180;
+}
+
+.address-bottom p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f3f7f9;
+}
+
+.copyright-section p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.feedback p, .developer p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffd180;
+}
+
+.feedback p a, .developer p a {
+    color: #ffffff;
+}
