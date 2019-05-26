@@ -198,6 +198,10 @@ header {
     text-transform: uppercase;
 }
 
+.popular-products li, .products{
+    list-style-type: none;
+}
+
 .products .card h3, .popular-products .card h3 {
     font-family: PTSans;
     font-size: 18px;
@@ -254,5 +258,34 @@ header {
     text-align: center;
     color: #32425c;
     text-transform: uppercase;
+}
+
+.popular-manufacturers h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+.popular-manufacturers > a {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+}
+
+.popular-manufacturers li {
+    list-style-type: none;
 }
 
