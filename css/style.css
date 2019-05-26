@@ -289,3 +289,52 @@ header {
     list-style-type: none;
 }
 
+.services {
+    background-color: #f4f7f9;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.services h3 {
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+}
+
+.services p {
+    font-family: PTSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.services li a {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #32425c;
+}
