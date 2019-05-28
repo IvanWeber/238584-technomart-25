@@ -1,3 +1,19 @@
+@font-face {
+    font-family: PTSans;
+    src: url(/fonts/PT_Sans/PT_Sans-Web-Bold.ttf);
+    src: url(/fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf);
+    src: url(/fonts/PT_Sans/PT_Sans-Web-Italic.ttf);
+    src: url(/fonts/PT_Sans/PT_Sans-Web-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cuprum;
+    src: url(/fonts/Cuprum/Cuprum-Bold.ttf);
+    src: url(/fonts/Cuprum/Cuprum-BoldItalic.ttf);
+    src: url(/fonts/Cuprum/Cuprum-Italic.ttf);
+    src: url(/fonts/Cuprum/Cuprum-Regular.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
