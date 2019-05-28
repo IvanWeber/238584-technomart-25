@@ -125,7 +125,7 @@ header {
     background-color: #ffbf47;
 }
 
-.offers div .feature {
+.offers .feature {
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -137,7 +137,7 @@ header {
     text-transform: uppercase;
 }
 
-.offers .slider p {
+.slider p {
     font-size: 36px;
     font-weight: bold;
     font-style: normal;
@@ -149,7 +149,7 @@ header {
     text-transform: uppercase;
 }
 
-.offers .slider .feature {
+.slider .feature {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -161,7 +161,7 @@ header {
     text-transform: none;
 }
 
-.offers .slider a {
+.slider a {
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -185,7 +185,6 @@ header {
 }
 
 .popular-products > a {
-    font-family: Cuprum;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -202,7 +201,7 @@ header {
     list-style-type: none;
 }
 
-.products .card h3, .popular-products .card h3 {
+.card h3 {
     font-family: PTSans;
     font-size: 18px;
     font-weight: bold;
@@ -214,7 +213,7 @@ header {
     color: #000000;
 }
 
-.products .card p, .popular-products .card p {
+.card p {
     font-family: PTSans;
     font-size: 17px;
     font-weight: bold;
@@ -226,16 +225,16 @@ header {
     color: #ffffff;
 }
 
-.products .card .price, .popular-products .card .price {
+.card .price {
     background-color: #ee3643;
 }
 
-.products .card .old-price, .popular-products .card .old-price {
+.card .old-price {
     text-decoration: line-through;
     color: #a9a9a9;
 }
 
-.products .card .add-to-cart, .popular-products .card .add-to-cart {
+.card .add-to-cart {
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -248,7 +247,7 @@ header {
     background-color: #63a63e;
 }
 
-.products .card .add-to-favorites, .popular-products .card .add-to-favorites {
+ .card .add-to-favorites {
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -476,7 +475,7 @@ header {
     color: #ffd180;
 }
 
-.feedback p a, .developer p a {
+.feedback a, .developer a {
     color: #ffffff;
 }
 
