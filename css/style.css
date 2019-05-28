@@ -1,5 +1,5 @@
 @font-face {
-    font-family: PTSans;
+    font-family: 'PTSans';
     src: url(/fonts/PT_Sans/PT_Sans-Web-Bold.ttf);
     src: url(/fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf);
     src: url(/fonts/PT_Sans/PT_Sans-Web-Italic.ttf);
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: Cuprum;
+    font-family: 'Cuprum';
     src: url(/fonts/Cuprum/Cuprum-Bold.ttf);
     src: url(/fonts/Cuprum/Cuprum-BoldItalic.ttf);
     src: url(/fonts/Cuprum/Cuprum-Italic.ttf);
@@ -17,8 +17,7 @@
 body {
     margin: 0;
     padding: 0;
-
-    font-family: "Cuprum", Arial, sans-serif;
+    font-family: 'PTSans', Arial, sans-serif;
     font-size: 13px;
     line-height: 37px;
     font-weight: normal;
@@ -34,7 +33,6 @@ a {
 
 .visually-hidden {
     position: absolute;
-
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -50,6 +48,7 @@ header {
 }
 
 .index-page-h1 {
+    font-family: 'Cuprum', sans-serif;
     width: 196px;
     height: 60px;
     font-size: 16px;
@@ -63,16 +62,19 @@ header {
 }
 
 .top-section {
+    font-family: 'Cuprum', sans-serif;
     color: #ffffff;
     background-color: #293449;
     font-size: 17px;
 }
 
 .top-section a {
+    font-family: 'Cuprum', sans-serif;
     color: #ffffff;
 }
 
 .address-top {
+    font-family: 'Cuprum', sans-serif;
     width: 250px;
     font-size: 14px;
     font-weight: normal;
@@ -85,6 +87,7 @@ header {
 }
 
 .address-top .phone {
+    font-family: 'Cuprum', sans-serif;
     width: 144px;
     height: 21px;
     font-size: 21px;
@@ -102,6 +105,7 @@ header {
 }
 
 .user-menu a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 21px;
     font-weight: normal;
     font-style: normal;
@@ -114,6 +118,7 @@ header {
 }
 
 .main-menu {
+    font-family: 'Cuprum', sans-serif;
     color: #ffffff;
     background-color: #293449;
     font-size: 17px;
@@ -124,12 +129,14 @@ header {
 }
 
 .main-menu a {
+    font-family: 'Cuprum', sans-serif;
     color: #ffffff;
     background-color: #293449;
     font-size: 17px;
 }
 
 .offers div {
+    font-family: 'Cuprum', sans-serif;
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
@@ -142,6 +149,7 @@ header {
 }
 
 .offers .feature {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -154,6 +162,7 @@ header {
 }
 
 .slider p {
+    font-family: 'Cuprum', sans-serif;
     font-size: 36px;
     font-weight: bold;
     font-style: normal;
@@ -166,6 +175,7 @@ header {
 }
 
 .slider .feature {
+    font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -178,6 +188,7 @@ header {
 }
 
 .slider a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -189,6 +200,7 @@ header {
 }
 
 .popular-products h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -201,6 +213,7 @@ header {
 }
 
 .popular-products > a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -218,7 +231,6 @@ header {
 }
 
 .card h3 {
-    font-family: PTSans;
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
@@ -230,7 +242,6 @@ header {
 }
 
 .card p {
-    font-family: PTSans;
     font-size: 17px;
     font-weight: bold;
     font-style: normal;
@@ -251,6 +262,7 @@ header {
 }
 
 .card .add-to-cart {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -264,6 +276,7 @@ header {
 }
 
  .card .add-to-favorites {
+     font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -276,6 +289,7 @@ header {
 }
 
 .popular-manufacturers h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -288,6 +302,7 @@ header {
 }
 
 .popular-manufacturers > a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -309,6 +324,7 @@ header {
 }
 
 .services h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -321,6 +337,7 @@ header {
 }
 
 .services h3 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 36px;
     font-weight: normal;
     font-style: normal;
@@ -332,7 +349,6 @@ header {
 }
 
 .services p {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -344,6 +360,7 @@ header {
 }
 
 .services li a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 21px;
     font-weight: bold;
     font-style: normal;
@@ -355,6 +372,7 @@ header {
 }
 
 .about-company h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -367,7 +385,6 @@ header {
 }
 
 .about-company p {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -379,6 +396,7 @@ header {
 }
 
 .about-company li{
+    font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -390,6 +408,7 @@ header {
 }
 
 .about-company > a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -403,6 +422,7 @@ header {
 }
 
 .contacts h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -415,7 +435,6 @@ header {
 }
 
 .contacts p {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -427,6 +446,7 @@ header {
 }
 
 .contacts a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -448,6 +468,7 @@ header {
 }
 
 .category-menu a {
+    font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -459,6 +480,7 @@ header {
 }
 
 .address-bottom p {
+    font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -470,6 +492,7 @@ header {
 }
 
 .copyright-section p {
+    font-family: 'Cuprum', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -481,6 +504,7 @@ header {
 }
 
 .feedback p, .developer p {
+    font-family: 'Cuprum', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -496,6 +520,7 @@ header {
 }
 
 .catalog-main h1 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -509,7 +534,6 @@ header {
 }
 
 .breadcrumb {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -522,7 +546,6 @@ header {
 }
 
 .category-selection {
-    font-family: PTSans;
     font-size: 15px;
     font-weight: normal;
     font-style: normal;
@@ -535,7 +558,6 @@ header {
 }
 
 .category-selection legend {
-    font-family: PTSans;
     font-size: 17px;
     font-weight: bold;
     font-style: normal;
@@ -548,7 +570,6 @@ header {
 }
 
 .category-selection .show-products {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -560,7 +581,6 @@ header {
 }
 
 .category-selection .pagination li {
-    font-family: PTSans;
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -577,6 +597,7 @@ header {
 }
 
 .a-few-words-about-perforators h2 {
+    font-family: 'Cuprum', sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -588,8 +609,7 @@ header {
     text-transform: uppercase;
 }
 
-.a-few-words-about-perforators p {width: 938px;
-    font-family: PTSans;
+.a-few-words-about-perforators p {
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
