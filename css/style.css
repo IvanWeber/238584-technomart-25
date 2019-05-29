@@ -533,7 +533,7 @@ header {
     background-color: #f2f6f8;
 }
 
-.breadcrumb {
+.breadcrumb, .breadcrumb a {
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
