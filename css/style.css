@@ -569,7 +569,7 @@ header {
     text-transform: uppercase;
 }
 
-.category-selection .show-products {
+.show-products {
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
@@ -578,6 +578,12 @@ header {
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+    text-transform: uppercase;
+
+    width: 140px;
+    height: 38px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
 }
 
 .category-selection .pagination li {
