@@ -44,6 +44,8 @@ a {
 }
 
 header {
+    margin: 0;
+    padding: 0;
     background-color: #f4f7f9;
 }
 
@@ -516,17 +518,19 @@ header {
 /* ----- Сеточные стили ----- */
 
 .main-header {
+    margin: 0;
     margin-bottom: 23px;
-    height: 320px;
+    padding: 0;
 }
 
 .top-section {
     padding: 0;
+    margin: 0;
     height: 42px;
 }
 
 .top-section .logo {
-    display: block;
+    display: inline-block;
     height: 42px;
     width: 220px;
     margin-left: 130px;
@@ -537,6 +541,25 @@ header {
 }
 
 
-.top-section form {
+.top-section .search-form {
+    display: inline-block;
+    margin-left: 49px;
+    width: 211px;
+}
 
+.top-section .favorites {
+    margin-left: 54px;
+}
+
+.top-section .cart {
+    margin-left: 78px;
+}
+
+.top-section .create-order {
+    display: inline-block;
+    height: 37px;
+    width: 150px;
+    margin-left: 31px;
+    background-color: #63a63e;
+    text-align: center;
 }
